@@ -1,30 +1,78 @@
 h1 {
-  color: black;
+  margin-top: 20px;
+  color: #121212;
+  font-weight: lighter;
   text-align: center;
+  letter-spacing: 3px;
+  text-shadow: 1px;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
+
 
 h3 {
-  color: black;
+  color: lightcoral;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
+
 h2 {
-  color: black;
+  color: lightcoral;
+  letter-spacing: 3px;
   text-align: center;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
+
 
 p {
   color: black;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
+
 li {
   color: black;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
+
+.front-end-text {
+  text-align: center;
+  color:lightcoral;
+  font-size: x-large;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+
+.border {
+  margin-top: 20px;
+  box-shadow: 0 10px 15px 9px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.pictures {
+  box-shadow: 0 10px 15px 9px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.border-bottom {
+  margin: 20px;
+  text-align: center;
+  color: #999;
+  font-size: x-large;
+  letter-spacing: 3px;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.border-bottom-writing {
+  text-align: left;
+  border-bottom: 1px solid lightgrey;
+  color: #999;
+  font-size: large;
+  letter-spacing: 3px;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
 
 
 .gd {
@@ -33,11 +81,18 @@ li {
   text-align: center;
 }
 
+
 .menuitem {
   color: black;
   font-size: 120%;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
+
+
+.menuitem:hover {
+  color: lightcoral;
+}
+
 
 .tab-section {
   padding-top: 20px;
@@ -45,11 +100,13 @@ li {
   border: 1px black;
 }
 
+
 .blog-post-title {
-  margin-bottom: .25rem;
+  margin-bottom: 20px;
   font-size: 2.5rem;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
+
 
 .blog-post-meta {
   margin-bottom: 1.25rem;
@@ -57,14 +114,33 @@ li {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
+
 .hidden {
   display: none;
 }
+
+
+.btn-link:hover {
+  color: lightcoral;
+}
+
+
+.btn {
+  color: black;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.btn-secondary {
+  border: grey;
+  background-color: lightcoral;
+}
+
 
 .fa-instagram {
   background: #125688;
   color: white;
 }
+
 
 .fa {
   padding: 20px;
@@ -75,29 +151,36 @@ li {
   margin: 5px 2px;
 }
 
+
 .fa:hover {
   opacity: 0.7;
 }
+
 
 .fa-linkedin {
   background: #007bb5;
   color: white;
 }
 
+
 .fa-facebook {
   background: #3B5998;
   color: white;
 }
 
-myImg {
+
+.myImg {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
+  box-shadow: 0 10px 15px 9px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 
 .myImg:hover {
   opacity: 0.7;
 }
+
 
 /* The Modal (background) */
 .modal {
@@ -123,6 +206,7 @@ myImg {
   /* Black w/ opacity */
 }
 
+
 /* Modal Content (image) */
 .modal-content {
   margin: auto;
@@ -130,6 +214,7 @@ myImg {
   width: 80%;
   max-width: 700px;
 }
+
 
 /* Caption of Modal Image */
 #caption {
@@ -143,6 +228,7 @@ myImg {
   height: 150px;
 }
 
+
 /* Add Animation */
 .modal-content,
 #caption {
@@ -151,6 +237,7 @@ myImg {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
+
 
 @-webkit-keyframes zoom {
   from {
@@ -162,6 +249,7 @@ myImg {
   }
 }
 
+
 @keyframes zoom {
   from {
     transform: scale(0)
@@ -171,6 +259,7 @@ myImg {
     transform: scale(1)
   }
 }
+
 
 /* The Close Button */
 .close {
@@ -183,6 +272,7 @@ myImg {
   transition: 0.3s;
 }
 
+
 .close:hover,
 .close:focus {
   color: #bbb;
@@ -190,12 +280,14 @@ myImg {
   cursor: pointer;
 }
 
+
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
   .modal-content {
     width: 100%;
   }
 }
+
 
 .thanksgiving {
   text-align: center;
@@ -210,25 +302,54 @@ div.gallery {
   width: 180px;
 }
 
+
 div.gallery:hover {
   border: 1px solid #777;
+  color: lightcoral;
 }
+
 
 div.gallery img {
   width: 100%;
   height: auto;
 }
 
-.publications {
+
+.article-position {
+  text-align: center;
   color: black;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
+
+.publications {
+  letter-spacing: 3px;
+  color: black;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+
+.publications:hover {
+  color: lightcoral;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+
+.border-publications {
+  width: 300px;
+  height: 380px;
+  margin-top: 20px;
+  box-shadow: 0 10px 15px 9px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
 div.desc {
   padding: 15px;
+  letter-spacing: 3px;
   text-align: center;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
+
 
 .campaign {
   padding-top: 20px;
