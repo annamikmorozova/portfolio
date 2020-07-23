@@ -1,3 +1,37 @@
+@media(max-width: 1008px) {
+  .row2 {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .col-wrap-alignment {
+    align-self: center;
+  }
+}
+
+
+.row3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+.nav-tabs {
+  justify-content: center;
+}
+
+
 h1 {
   margin-top: 20px;
   color: #121212;
@@ -40,8 +74,10 @@ li {
   font-style: italic;
   color: lightcoral;
   letter-spacing: 3px;
+  margin-top: 20px;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
+
 
 .app-titles {
   text-align: center;
@@ -49,11 +85,13 @@ li {
   font-size: 20px;
 }
 
+
 .app-github {
   text-align: center;
   font-weight: bold;
   font-style: italic;
 }
+
 
 a {
   color: lightcoral;
@@ -150,6 +188,7 @@ a:hover {
   color: black;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
+
 
 .btn-secondary {
   border: grey;
@@ -371,8 +410,13 @@ div.desc {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
-
 .campaign {
   padding-top: 20px;
   padding-bottom: 20px;
+  text-align: center;
+}
+
+
+.contact-address, .contact-phone, .contact-github, .contact-icons {
+  text-align: center;
 }
