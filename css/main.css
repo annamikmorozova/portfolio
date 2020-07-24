@@ -10,6 +10,16 @@
   }
 }
 
+@media(max-width: 1010px) {
+  .row3 {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .col-wrap-alignment-publications {
+    align-self: center;
+  }
+}
+
 
 .row3 {
   display: flex;
