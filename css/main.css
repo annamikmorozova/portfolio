@@ -14,10 +14,17 @@
   .row3 {
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
   }
   .col-wrap-alignment-publications {
     align-self: center;
   }
+}
+
+.col-wrap-alignment-publications {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 
