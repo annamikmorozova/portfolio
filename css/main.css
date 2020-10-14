@@ -10,6 +10,11 @@
   }
 }
 
+.row3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media(max-width: 1010px) {
   .row3 {
     flex-wrap: wrap;
@@ -26,15 +31,6 @@
   align-items: center;
   flex-direction: column;
 }
-
-
-.row3 {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
 
 .row2 {
   display: flex;
@@ -409,6 +405,15 @@ div.gallery img {
 .publications:hover {
   color: lightcoral;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+@media(min-width: 600px) {
+  .border-publications {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    box-shadow: 0 10px 15px 9px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 }
 
 
