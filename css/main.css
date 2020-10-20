@@ -10,9 +10,17 @@
   }
 }
 
+@media(max-width: 1010px) {
+  .row3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 .row3 {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 @media(max-width: 1010px) {
@@ -168,6 +176,8 @@ a:hover {
 .tab-section {
   padding-top: 20px;
   padding-bottom: 40px;
+  margin-right: 60px;
+  margin-left: 60px;
   border: 1px black;
 }
 
@@ -396,6 +406,8 @@ div.gallery img {
 
 
 .publications {
+  justify-content: center;
+  display: flex;
   letter-spacing: 3px;
   color: black;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
