@@ -17,7 +17,7 @@ Content of the website:
     - Pandemic Essentials
          - PostgreSQL, Node.js/Express.js, React, Redux, OAuth for guests and admins, CSS3, HTML5, React-Bootstrap, React-Icons, Mocha-Chai, Enzyme, Faker. Deployed with Heroku.
     - Guessing Game
-        - JavaScript, HTML5, CSS3.
+        - JavaScript, HTML5, CSS3. Deployed with Netlify.
 - Publications
     - Medium: How to think in an advanced Binary Search problem
     - Medium: Importance of JavaScript Test Coverage using Istanbul
